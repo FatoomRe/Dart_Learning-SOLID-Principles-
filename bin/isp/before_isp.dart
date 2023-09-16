@@ -20,20 +20,3 @@ class AndroidPayment implements IPayment{
     // TODO: implement payWithCreditCard
   }
 }
-
-mixin AndroidPayment implements IPayment {
-  @override
-  void payWithGooglePay() {
-    // implement payWithGooglePay
-  }
-
-  @override
-  void payWithApplePay() {
-    // implement payWithAppPay
-  }
-
-  @override
-  void payWithCreditCard() {
-    // implement payWithCreditCard
-  }
-}
