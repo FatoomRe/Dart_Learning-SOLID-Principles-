@@ -1,4 +1,5 @@
-
+//forth principal ISP means classes that implement interfaces should not be forced to implement methods that they do not need
+//after ISP
 abstract class IPayment{
   void payWithGooglePay();
   void payWithCreditCard();
