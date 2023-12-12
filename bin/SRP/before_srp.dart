@@ -1,6 +1,7 @@
 // first principle SRP (Single Responsibility Principle) mean every class should have a single responsibility
+//before SRP
 class TransferMoney {
-  void transferLocal(double amoiunt) {
+  void transferLocal(double amount) {
 
     //implementation
     sendSmsMsg();
