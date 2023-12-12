@@ -8,12 +8,13 @@ class Employee {
 
   const Employee({required this.id, required this.name, required this.sallary});
 
-  double calculateOverTime(double hours) {
-    return ((sallary / 20) / 8) * hours;
+  double calculateOverTime(double hours, bool isSenior) {
+    return ((sallary / 20) / 8) * (hours * (isSenior ? 2 : 1)); // we edit this method and that is the problem for OCP
   }
 }
 
 void main() {
   final employee = Employee(id: "1", name: "Fatimah", sallary: 10000);
-  print('overtime = ${employee.calculateOverTime(10)}');
+  print('overtime = ${employee.calculateOverTime(10, true)} SAR');
+  print('overtime = ${employee.calculateOverTime(10, false)} SAR');
 }
