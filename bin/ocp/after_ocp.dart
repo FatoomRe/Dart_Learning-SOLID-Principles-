@@ -33,8 +33,8 @@ class SeniorEmployee extends Employee {
 }
 
 void main() {
-  final e1 = JuniorEmployee(id: '1', name: 'Fatimah', salary: 5000);
-  final e2 = SeniorEmployee(id: '1', name: 'Fatimah', salary: 5000);
+  final e1 = JuniorEmployee(id: '1', name: 'Fatimah 1', salary: 5000);
+  final e2 = SeniorEmployee(id: '1', name: 'Fatimah 2', salary: 5000);
   print('Overtime: ${e1.calculateOverTime(10)}');
   print('Overtime: ${e2.calculateOverTime(10)}');
 }

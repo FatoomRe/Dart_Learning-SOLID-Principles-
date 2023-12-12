@@ -1,3 +1,5 @@
+// theird principle LSP means that the child class should be able to replace the parent class without affecting the functionality of the program
+//after LSP
 class UplodeFileService{
   void uplodeFile(){
     print('Parent Class : Uploding file...');
