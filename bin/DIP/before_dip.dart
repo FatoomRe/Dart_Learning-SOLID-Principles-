@@ -1,3 +1,5 @@
+//fifth principal DIP means that the high level module should not depend on low level module, both should depend on abstraction
+//before DIP
 class Email {
   final GmailService _gmailService = GmailService();
   final OutlookService _outlookService = OutlookService();
